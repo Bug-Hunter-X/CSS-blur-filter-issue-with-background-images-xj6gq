@@ -1,0 +1,1 @@
+The CSS property `filter: blur()` doesn't work as expected in some browsers when applied to an element with a background image. The blur effect might be too subtle or not visible at all, especially on low-resolution screens or older browsers. This issue often arises when the background image is very sharp or detailed, making the subtle blur effect less noticeable.
