@@ -1,0 +1,14 @@
+/* bugSolution.css */
+
+.blurred-element {
+  background-image: url('your-background-image.jpg');
+  /*Increase blur radius for better visibility*/
+  filter: blur(10px);
+  /* Fallback for older browsers that don't support blur or have poor support*/
+  -webkit-filter: blur(10px);
+}
+
+/* Consider adding a backdrop-filter to blur elements behind the main element for complex scenarios*/
+.backdrop-blur {
+  backdrop-filter: blur(10px);
+} 
